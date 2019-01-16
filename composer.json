@@ -1,0 +1,36 @@
+{
+  "name": "djabiev/yii2-clocktimepicker",
+  "description": "Yii2 wrapper for clockpicker (clock-like time picker) plugin",
+  "keywords": [
+    "yii2",
+    "clockpicker",
+    "timepicker"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/djabiev/yii2-clocktimepicker",
+  "authors": [
+    {
+      "name": "Shenwei Wang",
+      "email": "wangshenwei@qq.com",
+      "homepage": "https://github.com/weareoutman",
+      "role": "Developer"
+    },
+    {
+      "name": "Vladimir Djabiev'",
+      "email": "djabiev@gmail.com",
+      "homepage": "https://github.com/djabiev",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "bower-asset/clockpicker": "*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
