@@ -27,6 +27,11 @@
     "yiisoft/yii2": "~2.0.0",
     "bower-asset/clockpicker": "*"
   },
+  "autoload": {
+    "psr-4": {
+      "djabiev\\": ""
+    }
+  },
   "extra": {
     "asset-installer-paths": {
       "npm-asset-library": "vendor/npm",
